@@ -1,4 +1,5 @@
 import './App.css';
+import Asyncawait from './components/AsyncAwait/Asyncawait';
 import LiveQuestions from './components/Livecoding/LiveQuestions';
 import Promise from './components/Promises/Promise';
 
@@ -11,6 +12,8 @@ function App() {
       <hr />
       <h2>Promises Questions</h2>
       <Promise />
+      <h2>Async Await</h2>
+      <Asyncawait />
     </div>
   );
 }
